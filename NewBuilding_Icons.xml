@@ -3,5 +3,6 @@
 	<!-- For simplicity, reuse an existing icon. -->
 	<IconDefinitions>
 		<Row Name="ICON_BUILDING_LOCAL_FACTORY" Atlas="ICON_ATLAS_BUILDINGS" Index="26"/>
+		<Row Name="ICON_BUILDING_LOCAL_POWER_PLANT" Atlas="ICON_ATLAS_BUILDINGS" Index="34"/>
 	</IconDefinitions>
 </GameData>

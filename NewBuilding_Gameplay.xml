@@ -1,31 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <GameData>
-	<!-- Almost all gameplay types should first be added to the types table. -->
-	<!-- This serves as a central way to reference any type -->
 	<Types>
 		<Row Type="BUILDING_LOCAL_FACTORY" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_LOCAL_POWER_PLANT" Kind="KIND_BUILDING"/>
 	</Types>
-
 	<!-- Define the building here. For examples of additional properties and values, look at Buildings.xml in /Base/Assets/Gameplay/Data/-->
 	<Buildings>
 		<Row BuildingType="BUILDING_LOCAL_FACTORY" Name="LOC_BUILDING_LOCAL_FACTORY_NAME" Description="LOC_BUILDING_LOCAL_FACTORY_DESCRIPTION"
 			 PrereqTech="TECH_INDUSTRIALIZATION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE"
 			 PurchaseYield="YIELD_GOLD" Cost="390" AdvisorType="ADVISOR_GENERIC" Maintenance="1" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_LOCAL_POWER_PLANT" Name="LOC_BUILDING_LOCAL_POWER_PLANT_NAME" Description="LOC_BUILDING_LOCAL_POWER_PLANT_DESCRIPTION" 
+			 PrereqTech="TECH_ELECTRICITY" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" 
+			 PurchaseYield="YIELD_GOLD" Cost="580" AdvisorType="ADVISOR_GENERIC" Maintenance="2" CitizenSlots="1"/>
 	</Buildings>>
 	<BuildingPrereqs>
 		<Row Building="BUILDING_LOCAL_FACTORY" PrereqBuilding="BUILDING_WORKSHOP"/>
-		
+		<Row Building="BUILDING_LOCAL_POWER_PLANT" PrereqBuilding="BUILDING_LOCAL_FACTORY"/>
 		<!-- 修复鲁尔山谷的前提建筑 -->
 		<Row Building="BUILDING_RUHR_VALLEY" PrereqBuilding="BUILDING_LOCAL_FACTORY"/>
 	</BuildingPrereqs>
 	<MutuallyExclusiveBuildings>
 		<Row Building="BUILDING_LOCAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_FACTORY"/>
 		<Row Building="BUILDING_FACTORY" MutuallyExclusiveBuilding="BUILDING_LOCAL_FACTORY"/>
+		<Row Building="BUILDING_LOCAL_POWER_PLANT" MutuallyExclusiveBuilding="BUILDING_POWER_PLANT"/>
+		<Row Building="BUILDING_POWER_PLANT" MutuallyExclusiveBuilding="BUILDING_LOCAL_POWER_PLANT"/>
 	</MutuallyExclusiveBuildings>
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_LOCAL_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="6"/>
+		<Row BuildingType="BUILDING_LOCAL_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="10"/>
 	</Building_YieldChanges>
 	<Building_GreatPersonPoints>
 		<Row BuildingType="BUILDING_LOCAL_FACTORY" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_LOCAL_POWER_PLANT" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
 	</Building_GreatPersonPoints>
 </GameData>

@@ -13,7 +13,17 @@
 
 		<!-- Pedia text (historical context) about the new building. -->
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LOCAL_FACTORY_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>An alternative to Factory. Local Factory does not have range effect, but has high production and low maintenance.</Text>
+			<Text>An alternative to Factory. Local factory does not have range effect, but has high production and low maintenance.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_LOCAL_POWER_PLANT_NAME" Language="en_US">
+			<Text>Local Power Plant</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LOCAL_POWER_PLANT_DESCRIPTION" Language="en_US">
+			<Text>A game studio is a place that makes games, like the one you're playing this very moment!</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LOCAL_POWER_PLANT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>An alternative to Power Plant. Local power plant does not have range effect, but has high production and low maintenance.</Text>
 		</Row>
 
 
@@ -27,6 +37,16 @@
 		</Row>
 
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LOCAL_FACTORY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>An alternative to Factory. Local Factory does not have range effect, but has high production and low maintenance.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_LOCAL_POWER_PLANT_NAME" Language="zh_Hans_CN">
+			<Text>本地发电厂</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LOCAL_POWER_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一座高产出的发电厂，但不提供范围加成。适合精铺玩家。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LOCAL_POWER_PLANT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>An alternative to Factory. Local Factory does not have range effect, but has high production and low maintenance.</Text>
 		</Row>
 	</LocalizedText>
