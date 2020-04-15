@@ -2,12 +2,12 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>$name$</Name>
+    <Name>Local Factory</Name>
     <Guid>4a915605-0e87-4752-bba9-63a7ba67a8b1</Guid>
     <ProjectGuid>b20e87cb-f3e1-41e9-93f1-8d5770491a06</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This example demonstrates how to create a new building.</Teaser>
-    <Description>This example demonstrates how to create a new building.</Description>
+    <Teaser>Add building Local Factory without range effect but with high production</Teaser>
+    <Description>Add building Local Factory mutually exclusive to the vanila Factory.[NEWLINE][NEWLINE]Local Factory doesn't have range effect but gives high production and low maintenance.</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -28,6 +28,7 @@
       ]]></InGameActionData>
     <AssemblyName>NewBuilding</AssemblyName>
     <RootNamespace>NewBuilding</RootNamespace>
+    <Authors>gqqnbig</Authors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
