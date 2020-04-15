@@ -14,6 +14,9 @@
 	</Buildings>>
 	<BuildingPrereqs>
 		<Row Building="BUILDING_LOCAL_FACTORY" PrereqBuilding="BUILDING_WORKSHOP"/>
+		
+		<!-- 修复鲁尔山谷的前提建筑 -->
+		<Row Building="BUILDING_RUHR_VALLEY" PrereqBuilding="BUILDING_LOCAL_FACTORY"/>
 	</BuildingPrereqs>
 	<MutuallyExclusiveBuildings>
 		<Row Building="BUILDING_LOCAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_FACTORY"/>
