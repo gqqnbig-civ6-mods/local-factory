@@ -3,26 +3,26 @@
 	<!-- Almost all gameplay types should first be added to the types table. -->
 	<!-- This serves as a central way to reference any type -->
 	<Types>
-		<Row Type="BUILDING_GAME_STUDIO" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_LOCAL_FACTORY" Kind="KIND_BUILDING" />
 	</Types>
 
 	<!-- Define the building here. For examples of additional properties and values, look at Buildings.xml in /Base/Assets/Gameplay/Data/-->
 	<Buildings>
-		<Row BuildingType="BUILDING_GAME_STUDIO" Name="LOC_BUILDING_GAME_STUDIO_NAME" Description="LOC_BUILDING_LOCAL_FACTORY_DESCRIPTION"
+		<Row BuildingType="BUILDING_LOCAL_FACTORY" Name="LOC_BUILDING_LOCAL_FACTORY_NAME" Description="LOC_BUILDING_LOCAL_FACTORY_DESCRIPTION"
 			 PrereqTech="TECH_INDUSTRIALIZATION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE"
 			 PurchaseYield="YIELD_GOLD" Cost="390" AdvisorType="ADVISOR_GENERIC" Maintenance="1" CitizenSlots="1"/>
 	</Buildings>>
 	<BuildingPrereqs>
-		<Row Building="BUILDING_GAME_STUDIO" PrereqBuilding="BUILDING_WORKSHOP"/>
+		<Row Building="BUILDING_LOCAL_FACTORY" PrereqBuilding="BUILDING_WORKSHOP"/>
 	</BuildingPrereqs>
 	<MutuallyExclusiveBuildings>
-		<Row Building="BUILDING_GAME_STUDIO" MutuallyExclusiveBuilding="BUILDING_FACTORY"/>
-		<Row Building="BUILDING_FACTORY" MutuallyExclusiveBuilding="BUILDING_GAME_STUDIO"/>
+		<Row Building="BUILDING_LOCAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_FACTORY"/>
+		<Row Building="BUILDING_FACTORY" MutuallyExclusiveBuilding="BUILDING_LOCAL_FACTORY"/>
 	</MutuallyExclusiveBuildings>
 	<Building_YieldChanges>
-		<Row BuildingType="BUILDING_GAME_STUDIO" YieldType="YIELD_PRODUCTION" YieldChange="6"/>
+		<Row BuildingType="BUILDING_LOCAL_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="6"/>
 	</Building_YieldChanges>
 	<Building_GreatPersonPoints>
-		<Row BuildingType="BUILDING_GAME_STUDIO" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_LOCAL_FACTORY" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
 	</Building_GreatPersonPoints>
 </GameData>

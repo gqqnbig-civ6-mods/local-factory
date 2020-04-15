@@ -2,6 +2,6 @@
 <GameData>
 	<!-- For simplicity, reuse an existing icon. -->
 	<IconDefinitions>
-		<Row Name="ICON_BUILDING_GAME_STUDIO" Atlas="ICON_ATLAS_BUILDINGS" Index="26"/>
+		<Row Name="ICON_BUILDING_LOCAL_FACTORY" Atlas="ICON_ATLAS_BUILDINGS" Index="26"/>
 	</IconDefinitions>
 </GameData>

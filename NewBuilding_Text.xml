@@ -2,23 +2,23 @@
 <GameData>
 	<LocalizedText>
 		<!-- The name of the building. -->
-		<Row Tag="LOC_BUILDING_GAME_STUDIO_NAME" Language="en_US">
+		<Row Tag="LOC_BUILDING_LOCAL_FACTORY_NAME" Language="en_US">
 			<Text>Local Factory</Text>
 		</Row>
 
 		<!-- The description of the building, used in various places. -->
-		<Row Tag="LOC_BUILDING_GAME_STUDIO_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_BUILDING_LOCAL_FACTORY_DESCRIPTION" Language="en_US">
 			<Text>A game studio is a place that makes games, like the one you're playing this very moment!</Text>
 		</Row>
 
 		<!-- Pedia text (historical context) about the new building. -->
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GAME_STUDIO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LOCAL_FACTORY_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>An alternative to Factory. Local Factory does not have range effect, but has high production and low maintenance.</Text>
 		</Row>
 
 
 		<!-- 似乎不需要使用replace标签 -->
-		<Row Tag="LOC_BUILDING_GAME_STUDIO_NAME" Language="zh_Hans_CN">
+		<Row Tag="LOC_BUILDING_LOCAL_FACTORY_NAME" Language="zh_Hans_CN">
 			<Text>本地工厂</Text>
 		</Row>
 
@@ -26,7 +26,7 @@
 			<Text>一座高产出的工厂，但不提供范围加成。适合精铺玩家。</Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GAME_STUDIO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LOCAL_FACTORY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>An alternative to Factory. Local Factory does not have range effect, but has high production and low maintenance.</Text>
 		</Row>
 	</LocalizedText>
