@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- For simplicity, reuse an existing icon. -->
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_GAME_STUDIO" Atlas="ICON_ATLAS_BUILDINGS" Index="26"/>
+	</IconDefinitions>
+</GameData>
