@@ -22,8 +22,8 @@
 			<Text>本地工厂</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_GAME_STUDIO_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>A game studio is a place that makes games, like the one you're playing this very moment!</Text>
+		<Row Tag="LOC_BUILDING_LOCAL_FACTORY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一座高产出的工厂，但不提供范围加成。适合精铺玩家。</Text>
 		</Row>
 
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GAME_STUDIO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
