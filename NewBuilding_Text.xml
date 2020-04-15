@@ -1,19 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <GameData>
-  <LocalizedText>
-    <!-- The name of the building. -->
-    <Row Tag="LOC_BUILDING_GAME_STUDIO_NAME" Language="en_US">
-      <Text>Local Factory</Text>
-    </Row>
+	<LocalizedText>
+		<!-- The name of the building. -->
+		<Row Tag="LOC_BUILDING_GAME_STUDIO_NAME" Language="en_US">
+			<Text>Local Factory</Text>
+		</Row>
 
-    <!-- The description of the building, used in various places. -->
-    <Row Tag="LOC_BUILDING_GAME_STUDIO_DESCRIPTION" Language="en_US">
-      <Text>A game studio is a place that makes games, like the one you're playing this very moment!</Text>
-    </Row>
+		<!-- The description of the building, used in various places. -->
+		<Row Tag="LOC_BUILDING_GAME_STUDIO_DESCRIPTION" Language="en_US">
+			<Text>A game studio is a place that makes games, like the one you're playing this very moment!</Text>
+		</Row>
 
-    <!-- Pedia text (historical context) about the new building. -->
-    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GAME_STUDIO_CHAPTER_HISTORY_PARA_1" Language="en_US">
-      <Text>An alternative to Factory. Local Factory does not have range effect, but has high production and low maintenance.</Text>
-    </Row>
-  </LocalizedText>
+		<!-- Pedia text (historical context) about the new building. -->
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GAME_STUDIO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>An alternative to Factory. Local Factory does not have range effect, but has high production and low maintenance.</Text>
+		</Row>
+
+
+		<Replace Tag="LOC_BUILDING_GAME_STUDIO_NAME" Language="zh_Hans_CN">
+			<Text>本地工厂</Text>
+		</Replace>
+
+		<!-- The description of the building, used in various places. -->
+		<Replace Tag="LOC_BUILDING_GAME_STUDIO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>A game studio is a place that makes games, like the one you're playing this very moment!</Text>
+		</Replace>
+
+		<!-- Pedia text (historical context) about the new building. -->
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GAME_STUDIO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>An alternative to Factory. Local Factory does not have range effect, but has high production and low maintenance.</Text>
+		</Replace>
+	</LocalizedText>
 </GameData>
