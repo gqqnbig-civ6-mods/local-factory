@@ -15,6 +15,10 @@
 	<BuildingPrereqs>
 		<Row Building="BUILDING_GAME_STUDIO" PrereqBuilding="BUILDING_WORKSHOP"/>
 	</BuildingPrereqs>
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_GAME_STUDIO" MutuallyExclusiveBuilding="BUILDING_FACTORY"/>
+		<Row Building="BUILDING_FACTORY" MutuallyExclusiveBuilding="BUILDING_GAME_STUDIO"/>
+	</MutuallyExclusiveBuildings>
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_GAME_STUDIO" YieldType="YIELD_PRODUCTION" YieldChange="6"/>
 	</Building_YieldChanges>
