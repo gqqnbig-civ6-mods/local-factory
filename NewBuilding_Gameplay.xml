@@ -8,7 +8,7 @@
 
   <!-- Define the building here. For examples of additional properties and values, look at Buildings.xml in /Base/Assets/Gameplay/Data/-->
   <Buildings>
-    <Row BuildingType="BUILDING_GAME_STUDIO" Name="LOC_BUILDING_GAME_STUDIO_NAME" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="100" AdvisorType="ADVISOR_GENERIC"/>
+    <Row BuildingType="BUILDING_GAME_STUDIO" Name="LOC_BUILDING_GAME_STUDIO_NAME" PrereqTech="TECH_INDUSTRIALIZATION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="100" AdvisorType="ADVISOR_GENERIC"/>
   </Buildings>
   <Building_YieldChanges>
     <Row BuildingType="BUILDING_GAME_STUDIO" YieldType="YIELD_CULTURE" YieldChange="3"/>
