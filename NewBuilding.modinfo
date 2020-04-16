@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4a915605-0e87-4752-bba9-63a7ba67a8b1" version="1">
+  <Properties>
+    <Name>Local Factory</Name>
+    <Description>Add building Local Factory mutually exclusive to the vanilla Factory.[NEWLINE][NEWLINE]Local Factory doesn't have range effect but gives high production and low maintenance.</Description>
+    <Created>1587063386</Created>
+    <Teaser>Add building Local Factory without range effect but with high production</Teaser>
+    <Authors>gqqnbig</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>NewBuilding_Gameplay.xml</File>
+      <File>Boosts.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>NewBuilding_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>Buildings_Text.xml</File>
+      <File>Technologies_Text.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="Scripts">
+      <File>Boosts.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Boosts.lua</File>
+    <File>Boosts.sql</File>
+    <File>Buildings_Text.xml</File>
+    <File>NewBuilding_Gameplay.xml</File>
+    <File>NewBuilding_Icons.xml</File>
+    <File>Technologies_Text.xml</File>
+  </Files>
+</Mod>

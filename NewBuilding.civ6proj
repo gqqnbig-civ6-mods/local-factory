@@ -8,12 +8,12 @@
     <ModVersion>1</ModVersion>
     <Teaser>Add building Local Factory without range effect but with high production</Teaser>
     <Description>Add building Local Factory mutually exclusive to the vanila Factory.[NEWLINE][NEWLINE]Local Factory doesn't have range effect but gives high production and low maintenance.</Description>
-    <AffectsSavedGames>true</AffectsSavedGames>
+    <AffectsSavedGames>false</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>NewBuilding_Gameplay.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>NewBuilding_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>NewBuilding_Text.xml</File></UpdateText><AddGameplayScripts id="Scripts"><File>LocalFactory.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>NewBuilding_Gameplay.xml</File><File>Boosts.sql</File></UpdateDatabase><UpdateIcons id="Icons"><File>NewBuilding_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>Buildings_Text.xml</File><File>Technologies_Text.xml</File></UpdateText><AddGameplayScripts id="Scripts"><File>LocalFactory.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
     <AssemblyName>NewBuilding</AssemblyName>
     <RootNamespace>NewBuilding</RootNamespace>
     <Authors>gqqnbig</Authors>
@@ -23,13 +23,18 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="NewBuilding.Art.xml" />
-    <None Include="GettingStarted.html" />
-    <Content Include="LocalFactory.lua">
+    <Content Include="Boosts.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Boosts.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Technologies_Text.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="NewBuilding_Gameplay.xml" />
     <Content Include="NewBuilding_Icons.xml" />
-    <Content Include="NewBuilding_Text.xml" />
+    <Content Include="Buildings_Text.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
