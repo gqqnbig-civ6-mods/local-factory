@@ -20,49 +20,47 @@ function OnBuildingConstructed(playerID, cityType, buildingID, plotID, bOriginal
     -- https://www.lua.org/manual/5.2/manual.html#6.1
     -- print可以接受任意数量的参数
     -- print("OnBuildingConstructed", playerID, cityType, buildingID, plotID, bOriginalConstruction)
-	local building = GameInfo.Buildings[buildingID]
+    local building = GameInfo.Buildings[buildingID]
 
-	local advancedBallisticsInfo= GameInfo.Technologies['TECH_ADVANCED_BALLISTICS']
+    local advancedBallisticsInfo = GameInfo.Technologies['TECH_ADVANCED_BALLISTICS']
 
-
-	local player=Players[playerID]
+    local player = Players[playerID]
     local techs = player:GetTechs()
-	if techs:HasTech(advancedBallisticsInfo.Index) or techs:HasBoostBeenTriggered(advancedBallisticsInfo.Index) then
-		print(techs:HasTech(advancedBallisticsInfo.Index), techs:HasBoostBeenTriggered(advancedBallisticsInfo.Index))
-		return
-	end
-
-
+    if techs:HasTech(advancedBallisticsInfo.Index) or techs:HasBoostBeenTriggered(advancedBallisticsInfo.Index) then
+        print(techs:HasTech(advancedBallisticsInfo.Index), techs:HasBoostBeenTriggered(advancedBallisticsInfo.Index))
+        return
+    end
 
     if building ~= nil and (building.Name == 'LOC_BUILDING_POWER_PLANT_NAME' or building.Name == 'LOC_BUILDING_LOCAL_POWER_PLANT_NAME') then
         print('发电厂造好了')
 
         if player.PowerPlantCount == nil then
-			player.PowerPlantCount=0
-			local localPowerPlantInfo = GameInfo.Buildings['BUILDING_LOCAL_POWER_PLANT']
-			local regionalPowerPlantInfo = GameInfo.Buildings['BUILDING_POWER_PLANT']
-			print(localPowerPlantInfo,localPowerPlantInfo.Index)
+            player.PowerPlantCount = 0
+            local localPowerPlantInfo = GameInfo.Buildings['BUILDING_LOCAL_POWER_PLANT']
+            local regionalPowerPlantInfo = GameInfo.Buildings['BUILDING_POWER_PLANT']
+            print(localPowerPlantInfo, localPowerPlantInfo.Index)
 
-			for _, city in player:GetCities():Members() do
-				local cityBuildings= city:GetBuildings()
-				if cityBuildings:HasBuilding(localPowerPlantInfo.Index) then
-					player.PowerPlantCount=player.PowerPlantCount+1
-					print(city:GetName(),'has local')
-				elseif cityBuildings:HasBuilding(regionalPowerPlantInfo.Index) then
-					player.PowerPlantCount=player.PowerPlantCount+1
-					print(city:GetName(),'has regional')
-				end
-			end
+            for _, city in player:GetCities():Members() do
+                local cityBuildings = city:GetBuildings()
+                if cityBuildings:HasBuilding(localPowerPlantInfo.Index) then
+                    player.PowerPlantCount = player.PowerPlantCount + 1
+                    print(city:GetName(), 'has local')
+                elseif cityBuildings:HasBuilding(regionalPowerPlantInfo.Index) then
+                    player.PowerPlantCount = player.PowerPlantCount + 1
+                    print(city:GetName(), 'has regional')
+                end
+            end
         else
             player.PowerPlantCount = player.PowerPlantCount + 1
         end
 
-		print(player.PowerPlantCount)
-		if player.PowerPlantCount>=2 then
-			print('有两座发电厂或本地发电厂了')
+        print(player.PowerPlantCount)
+        if player.PowerPlantCount >= 2 then
+            print('有两座发电厂或本地发电厂了')
 
-			techs:TriggerBoost(advancedBallisticsInfo.Index)
-		end
+            techs:TriggerBoost(advancedBallisticsInfo.Index)
+            player.PowerPlantCount = nil
+        end
     end
 end
 
