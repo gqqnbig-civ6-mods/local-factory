@@ -13,19 +13,7 @@
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-    <InGameActionData><![CDATA[
-      <InGameActions>
-        <UpdateDatabase id="Gameplay">
-          <File>NewBuilding_Gameplay.xml</File>
-        </UpdateDatabase>
-        <UpdateIcons id="Icons">
-          <File>NewBuilding_Icons.xml</File>
-        </UpdateIcons>
-        <UpdateText id="Text">
-          <File>NewBuilding_Text.xml</File>
-        </UpdateText>
-      </InGameActions>
-      ]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>NewBuilding_Gameplay.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>NewBuilding_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>NewBuilding_Text.xml</File></UpdateText><AddGameplayScripts id="Scripts"><File>LocalFactory.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
     <AssemblyName>NewBuilding</AssemblyName>
     <RootNamespace>NewBuilding</RootNamespace>
     <Authors>gqqnbig</Authors>
@@ -36,6 +24,9 @@
   <ItemGroup>
     <None Include="NewBuilding.Art.xml" />
     <None Include="GettingStarted.html" />
+    <Content Include="LocalFactory.lua">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="NewBuilding_Gameplay.xml" />
     <Content Include="NewBuilding_Icons.xml" />
     <Content Include="NewBuilding_Text.xml" />
