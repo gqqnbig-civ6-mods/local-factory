@@ -22,13 +22,17 @@ function OnBuildingConstructed(playerID, cityType, buildingID, plotID, bOriginal
     -- print("OnBuildingConstructed", playerID, cityType, buildingID, plotID, bOriginalConstruction)
 	local building = GameInfo.Buildings[buildingID]
 
-
+	local advancedBallisticsInfo= GameInfo.Technologies['TECH_ADVANCED_BALLISTICS']
 
 
 	local player=Players[playerID]
     local techs = player:GetTechs()
+	if techs:HasTech(advancedBallisticsInfo.Index) or techs:HasBoostBeenTriggered(advancedBallisticsInfo.Index) then
+		print(techs:HasTech(advancedBallisticsInfo.Index), techs:HasBoostBeenTriggered(advancedBallisticsInfo.Index))
+		return
+	end
 
-    print(techs)
+
 
     if building ~= nil and (building.Name == 'LOC_BUILDING_POWER_PLANT_NAME' or building.Name == 'LOC_BUILDING_LOCAL_POWER_PLANT_NAME') then
         print('发电厂造好了')
@@ -56,6 +60,8 @@ function OnBuildingConstructed(playerID, cityType, buildingID, plotID, bOriginal
 		print(player.PowerPlantCount)
 		if player.PowerPlantCount>=2 then
 			print('有两座发电厂或本地发电厂了')
+
+			techs:TriggerBoost(advancedBallisticsInfo.Index)
 		end
     end
 end
