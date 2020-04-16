@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BOOST_TRIGGER_ADVANCED_BALLISTICS" Language="en_US">
+			<Text>Build 2 regular power plants or local power plants</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ADVANCED_BALLISTICS" Language="zh_Hans_CN">
+			<Text>建造2座普通工厂或本地工厂</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
