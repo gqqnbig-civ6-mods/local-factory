@@ -1,5 +1,11 @@
 # Local Factory and Power Plant 本地工厂与发电厂
 
+
+## 参数设定
+
+按照黄金六城铺法，工厂加发电厂给周围六座城加成，(3+4)*6=42生产力，维护费2+3，即8.4生产力/金。本地工厂加本地发电厂，效益为(6+10)/(1+2)=5.3生产力/金，是范围厂的63%。考虑到黄金六城铺法城市紧密，不能独占三环，所以本地厂在效益上比范围厂差一点。
+
+
 Let's play tall city!
 
 Add building Local Factory mutually exclusive to the vanilla Factory. Local Factory doesn't have range effect but gives high production and low maintenance. Do the same for Power Plants.
