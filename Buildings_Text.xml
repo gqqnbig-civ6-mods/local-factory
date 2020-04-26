@@ -27,7 +27,7 @@
 		</Row>
 
 
-		<!-- 似乎不需要使用replace标签 -->
+		<!-- 新的tag不需要使用replace标签 -->
 		<Row Tag="LOC_BUILDING_LOCAL_FACTORY_NAME" Language="zh_Hans_CN">
 			<Text>本地工厂</Text>
 		</Row>

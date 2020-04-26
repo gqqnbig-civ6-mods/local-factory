@@ -11,8 +11,8 @@
   </Properties>
   <InGameActions>
     <UpdateDatabase id="Gameplay">
-      <File>NewBuilding_Gameplay.xml</File>
-      <File>Boosts.sql</File>
+      <File>Buildings_Gameplay.xml</File>
+      <File>Technologies_Gameplay.xml</File>
     </UpdateDatabase>
     <UpdateIcons id="Icons">
       <File>NewBuilding_Icons.xml</File>
@@ -21,15 +21,10 @@
       <File>Buildings_Text.xml</File>
       <File>Technologies_Text.xml</File>
     </UpdateText>
-    <AddGameplayScripts id="Scripts">
-      <File>Boosts.lua</File>
-    </AddGameplayScripts>
   </InGameActions>
   <Files>
-    <File>Boosts.lua</File>
-    <File>Boosts.sql</File>
     <File>Buildings_Text.xml</File>
-    <File>NewBuilding_Gameplay.xml</File>
+    <File>Buildings_Gameplay.xml</File>
     <File>NewBuilding_Icons.xml</File>
     <File>Technologies_Text.xml</File>
   </Files>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:noNamespaceSchemaLocation="../AI Play Tall/Civ6Lua/Gameplay.xsd">
+	<Boosts>
+		<Row CivicType="CIVIC_CLASS_STRUGGLE" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_CLASS_STRUGGLE" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_CLASS_STRUGGLE"
+			 BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_LOCAL_FACTORY" NumItems="3"/>
+
+		<Row TechnologyType="TECH_ADVANCED_BALLISTICS" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_ADVANCED_BALLISTICS" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_ADVANCED_BALLISTICS"
+			 BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_LOCAL_POWER_PLANT" NumItems="2"/>
+	</Boosts>
+</GameData>
