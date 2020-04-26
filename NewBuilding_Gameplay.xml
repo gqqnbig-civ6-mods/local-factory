@@ -12,7 +12,7 @@
 		<Row BuildingType="BUILDING_LOCAL_POWER_PLANT" Name="LOC_BUILDING_LOCAL_POWER_PLANT_NAME" Description="LOC_BUILDING_LOCAL_POWER_PLANT_DESCRIPTION" 
 			 PrereqTech="TECH_ELECTRICITY" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" 
 			 PurchaseYield="YIELD_GOLD" Cost="580" AdvisorType="ADVISOR_GENERIC" Maintenance="2" CitizenSlots="1"/>
-	</Buildings>>
+	</Buildings>
 	<BuildingPrereqs>
 		<Row Building="BUILDING_LOCAL_FACTORY" PrereqBuilding="BUILDING_WORKSHOP"/>
 		<Row Building="BUILDING_LOCAL_POWER_PLANT" PrereqBuilding="BUILDING_LOCAL_FACTORY"/>
