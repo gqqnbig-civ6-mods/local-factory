@@ -15,7 +15,7 @@
       <File>Technologies_Gameplay.xml</File>
     </UpdateDatabase>
     <UpdateIcons id="Icons">
-      <File>NewBuilding_Icons.xml</File>
+      <File>Buildings_Icons.xml</File>
     </UpdateIcons>
     <UpdateText id="Text">
       <File>Buildings_Text.xml</File>
@@ -25,7 +25,7 @@
   <Files>
     <File>Buildings_Text.xml</File>
     <File>Buildings_Gameplay.xml</File>
-    <File>NewBuilding_Icons.xml</File>
+    <File>Buildings_Icons.xml</File>
     <File>Technologies_Text.xml</File>
   </Files>
 </Mod>
