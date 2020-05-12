@@ -3,6 +3,7 @@
 		  xsi:noNamespaceSchemaLocation="../Civ6schema/xml/Gameplay.xsd">
 	<Types>
 		<Row Type="BUILDING_LOCAL_FACTORY" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_WATT_FACTORY" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_LOCAL_POWER_PLANT" Kind="KIND_BUILDING"/>
 	</Types>
 	<!-- Define the building here. For examples of additional properties and values, look at Buildings.xml in /Base/Assets/Gameplay/Data/-->
@@ -10,9 +11,17 @@
 		<Row BuildingType="BUILDING_LOCAL_FACTORY" Name="LOC_BUILDING_LOCAL_FACTORY_NAME" Description="LOC_BUILDING_LOCAL_FACTORY_DESCRIPTION"
 			 PrereqTech="TECH_INDUSTRIALIZATION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE"
 			 PurchaseYield="YIELD_GOLD" Cost="390" AdvisorType="ADVISOR_GENERIC" Maintenance="1" CitizenSlots="1"/>
+		<!-- BUILDING_WATT_FACTORY is a combination of BUILDING_FACTORY and BUILDING_LOCAL_FACTORY -->
+		<Row BuildingType="BUILDING_WATT_FACTORY" Name="LOC_BUILDING_WATT_FACTORY_NAME" Description="LOC_BUILDING_WATT_FACTORY_DESCRIPTION"
+			 PrereqTech="TECH_INDUSTRIALIZATION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE"
+			 Cost="10" Maintenance="2" CitizenSlots="2" MustPurchase="true" />
+
+
+
 		<Row BuildingType="BUILDING_LOCAL_POWER_PLANT" Name="LOC_BUILDING_LOCAL_POWER_PLANT_NAME" Description="LOC_BUILDING_LOCAL_POWER_PLANT_DESCRIPTION" 
 			 PrereqTech="TECH_ELECTRICITY" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" 
 			 PurchaseYield="YIELD_GOLD" Cost="580" AdvisorType="ADVISOR_GENERIC" Maintenance="2" CitizenSlots="1"/>
+
 	</Buildings>
 	<BuildingPrereqs>
 		<Row Building="BUILDING_LOCAL_FACTORY" PrereqBuilding="BUILDING_WORKSHOP"/>
