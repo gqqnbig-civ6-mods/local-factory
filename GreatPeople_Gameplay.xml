@@ -2,16 +2,15 @@
 <GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		  xsi:noNamespaceSchemaLocation="../Civ6schema/xml/Gameplay.xsd">
 	<Modifiers>
-		<Row ModifierId="GREATPERSON_LOCAL_FACTORY" ModifierType="MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE" RunOnce="true" Permanent="true"/>
+		<Row ModifierId="GREATPERSON_WATT_FACTORY" ModifierType="MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE" RunOnce="true" Permanent="true"/>
 	</Modifiers>
 	<ModifierArguments>
-		<Row ModifierId="GREATPERSON_LOCAL_FACTORY" Name="BuildingType" Value="BUILDING_LOCAL_FACTORY"/>
+		<Row ModifierId="GREATPERSON_WATT_FACTORY" Name="BuildingType" Value="BUILDING_WATT_FACTORY"/>
 	</ModifierArguments>
 
 	<GreatPersonIndividualActionModifiers>
 		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_WATT" ModifierId="GREATPERSON_WORKSHOP"/>
 		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_WATT" ModifierId="GREATPERSON_FACTORIES_PRODUCTION"/>
-<!--		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_WATT" ModifierId="GREATPERSON_FACTORY"/>-->
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_WATT" ModifierId="GREATPERSON_LOCAL_FACTORY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_WATT" ModifierId="GREATPERSON_WATT_FACTORY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 	</GreatPersonIndividualActionModifiers>
 </GameData>

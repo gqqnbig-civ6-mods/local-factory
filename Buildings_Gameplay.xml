@@ -11,10 +11,10 @@
 		<Row BuildingType="BUILDING_LOCAL_FACTORY" Name="LOC_BUILDING_LOCAL_FACTORY_NAME" Description="LOC_BUILDING_LOCAL_FACTORY_DESCRIPTION"
 			 PrereqTech="TECH_INDUSTRIALIZATION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE"
 			 PurchaseYield="YIELD_GOLD" Cost="390" AdvisorType="ADVISOR_GENERIC" Maintenance="1" CitizenSlots="1"/>
-		<!-- BUILDING_WATT_FACTORY is a combination of BUILDING_FACTORY and BUILDING_LOCAL_FACTORY -->
+
 		<Row BuildingType="BUILDING_WATT_FACTORY" Name="LOC_BUILDING_WATT_FACTORY_NAME" Description="LOC_BUILDING_WATT_FACTORY_DESCRIPTION"
 			 PrereqTech="TECH_INDUSTRIALIZATION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE"
-			 Cost="10" Maintenance="2" CitizenSlots="2" MustPurchase="true" />
+			 Cost="2" Maintenance="1" CitizenSlots="1" MustPurchase="true" />
 
 
 
@@ -25,6 +25,8 @@
 	</Buildings>
 	<BuildingPrereqs>
 		<Row Building="BUILDING_LOCAL_FACTORY" PrereqBuilding="BUILDING_WORKSHOP"/>
+
+		<Row Building="BUILDING_LOCAL_POWER_PLANT" PrereqBuilding="BUILDING_WATT_FACTORY"/>
 		<Row Building="BUILDING_LOCAL_POWER_PLANT" PrereqBuilding="BUILDING_LOCAL_FACTORY"/>
 		<!-- 修复鲁尔山谷的前提建筑 -->
 		<Row Building="BUILDING_RUHR_VALLEY" PrereqBuilding="BUILDING_LOCAL_FACTORY"/>
@@ -37,10 +39,12 @@
 	</MutuallyExclusiveBuildings>
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_LOCAL_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="6"/>
+		<Row BuildingType="BUILDING_WATT_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="6"/>
 		<Row BuildingType="BUILDING_LOCAL_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="10"/>
 	</Building_YieldChanges>
 	<Building_GreatPersonPoints>
 		<Row BuildingType="BUILDING_LOCAL_FACTORY" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_WATT_FACTORY" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
 		<Row BuildingType="BUILDING_LOCAL_POWER_PLANT" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
 	</Building_GreatPersonPoints>
 </GameData>
