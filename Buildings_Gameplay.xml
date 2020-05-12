@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<GameData>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:noNamespaceSchemaLocation="../Civ6schema/xml/Gameplay.xsd">
 	<Types>
 		<Row Type="BUILDING_LOCAL_FACTORY" Kind="KIND_BUILDING" />
 		<Row Type="BUILDING_LOCAL_POWER_PLANT" Kind="KIND_BUILDING"/>

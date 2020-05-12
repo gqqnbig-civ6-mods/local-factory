@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<GameData>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="../Civ6schema/xml/Text.xsd">
 	<LocalizedText>
 		<!-- The name of the building. -->
 		<Row Tag="LOC_BUILDING_LOCAL_FACTORY_NAME" Language="en_US">
