@@ -13,7 +13,7 @@
 			 PurchaseYield="YIELD_GOLD" Cost="390" AdvisorType="ADVISOR_GENERIC" Maintenance="1" CitizenSlots="1"/>
 
 		<Row BuildingType="BUILDING_WATT_FACTORY" Name="LOC_BUILDING_WATT_FACTORY_NAME" Description="LOC_BUILDING_WATT_FACTORY_DESCRIPTION"
-			 PrereqTech="TECH_INDUSTRIALIZATION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE"
+			 PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE"
 			 Cost="2" Maintenance="1" CitizenSlots="1" MustPurchase="true" />
 
 

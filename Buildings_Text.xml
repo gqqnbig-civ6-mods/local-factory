@@ -41,6 +41,14 @@
 			<Text>An alternative to Factory. Local Factory does not have range effect, but has high production and low maintenance.</Text>
 		</Row>
 
+		<Row Tag="LOC_BUILDING_WATT_FACTORY_NAME" Language="zh_Hans_CN">
+			<Text>瓦特蒸汽机公司</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_WATT_FACTORY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由大工程师詹姆斯·瓦特制造，效果与本地工厂相同，但可以和{LOC_BUILDING_FACTORY_NAME}造在一起。</Text>
+		</Row>
+
 		<Row Tag="LOC_BUILDING_LOCAL_POWER_PLANT_NAME" Language="zh_Hans_CN">
 			<Text>本地发电厂</Text>
 		</Row>
