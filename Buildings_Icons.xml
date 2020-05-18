@@ -8,11 +8,22 @@
 		<Row Name="ICON_ATLAS_LOCAL_FACTORY" IconSize="50" IconsPerRow="1" IconsPerColumn="1" FileName="local-factory-50.dds"/>
 		<Row Name="ICON_ATLAS_LOCAL_FACTORY" IconSize="38" IconsPerRow="1" IconsPerColumn="1" FileName="local-factory-38.dds"/>
 		<Row Name="ICON_ATLAS_LOCAL_FACTORY" IconSize="32" IconsPerRow="1" IconsPerColumn="1" FileName="local-factory-32.dds"/>
+
+		<Row Name="ICON_ATLAS_LOCAL_POWER_PLANT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" FileName="local-power-plant-256.dds"/>
+		<Row Name="ICON_ATLAS_LOCAL_POWER_PLANT" IconSize="128" IconsPerRow="1" IconsPerColumn="1" FileName="local-power-plant-128.dds"/>
+		<Row Name="ICON_ATLAS_LOCAL_POWER_PLANT" IconSize="80" IconsPerRow="1" IconsPerColumn="1" FileName="local-power-plant-80.dds"/>
+		<Row Name="ICON_ATLAS_LOCAL_POWER_PLANT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" FileName="local-power-plant-50.dds"/>
+		<Row Name="ICON_ATLAS_LOCAL_POWER_PLANT" IconSize="38" IconsPerRow="1" IconsPerColumn="1" FileName="local-power-plant-38.dds"/>
+		<Row Name="ICON_ATLAS_LOCAL_POWER_PLANT" IconSize="32" IconsPerRow="1" IconsPerColumn="1" FileName="local-power-plant-32.dds"/>
+
 	</IconTextureAtlases>
-	<!-- For simplicity, reuse an existing icon. -->
 	<IconDefinitions>
 		<Row Name="ICON_BUILDING_LOCAL_FACTORY" Atlas="ICON_ATLAS_LOCAL_FACTORY" Index="0"/>
+		<Row Name="ICON_BUILDING_LOCAL_POWER_PLANT" Atlas="ICON_ATLAS_LOCAL_POWER_PLANT" Index="0"/>
+	</IconDefinitions>
+
+	<!-- For simplicity, reuse an existing icon. -->
+	<IconDefinitions>
 		<Row Name="ICON_BUILDING_WATT_FACTORY" Atlas="ICON_ATLAS_BUILDINGS" Index="26"/>
-		<Row Name="ICON_BUILDING_LOCAL_POWER_PLANT" Atlas="ICON_ATLAS_BUILDINGS" Index="34"/>
 	</IconDefinitions>
 </GameData>

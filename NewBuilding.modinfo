@@ -19,6 +19,13 @@
         <File>icons/local-factory-80.dds</File>
         <File>icons/local-factory-128.dds</File>
         <File>icons/local-factory-256.dds</File>
+
+        <File>icons/local-power-plant-32.dds</File>
+        <File>icons/local-power-plant-38.dds</File>
+        <File>icons/local-power-plant-50.dds</File>
+        <File>icons/local-power-plant-80.dds</File>
+        <File>icons/local-power-plant-128.dds</File>
+        <File>icons/local-power-plant-256.dds</File>
     </ImportFiles>
     <UpdateDatabase id="Gameplay">
       <File>Buildings_Gameplay.xml</File>
@@ -43,6 +50,14 @@
     <File>icons/local-factory-80.dds</File>
     <File>icons/local-factory-128.dds</File>
     <File>icons/local-factory-256.dds</File>
+
+    <File>icons/local-power-plant-32.dds</File>
+    <File>icons/local-power-plant-38.dds</File>
+    <File>icons/local-power-plant-50.dds</File>
+    <File>icons/local-power-plant-80.dds</File>
+    <File>icons/local-power-plant-128.dds</File>
+    <File>icons/local-power-plant-256.dds</File>
+
 
     <File>Buildings_Gameplay.xml</File>
     <File>Technologies_Gameplay.xml</File>
