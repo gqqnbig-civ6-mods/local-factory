@@ -34,8 +34,6 @@
 	<MutuallyExclusiveBuildings>
 		<Row Building="BUILDING_LOCAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_FACTORY"/>
 		<Row Building="BUILDING_FACTORY" MutuallyExclusiveBuilding="BUILDING_LOCAL_FACTORY"/>
-		<Row Building="BUILDING_LOCAL_POWER_PLANT" MutuallyExclusiveBuilding="BUILDING_POWER_PLANT"/>
-		<Row Building="BUILDING_POWER_PLANT" MutuallyExclusiveBuilding="BUILDING_LOCAL_POWER_PLANT"/>
 	</MutuallyExclusiveBuildings>
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_LOCAL_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="6"/>
