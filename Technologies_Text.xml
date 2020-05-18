@@ -2,19 +2,19 @@
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_BOOST_TRIGGER_ADVANCED_BALLISTICS" Language="en_US">
-			<Text>Build 2 regular power plants or local power plants.</Text>
+			<Text>Build 2 {LOC_BUILDING_POWER_PLANT_NAME} or local power plants.</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BOOST_TRIGGER_CLASS_STRUGGLE" Language="en_US">
-			<Text>Build 3 regular Factories or Local Factories.</Text>
+			<Text>Build 3 {LOC_BUILDING_FACTORY_NAME} or Local Factories.</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BOOST_TRIGGER_ADVANCED_BALLISTICS" Language="zh_Hans_CN">
-			<Text>建造2座普通发电厂或本地发电厂。</Text>
+			<Text>建造2座{LOC_BUILDING_POWER_PLANT_NAME}或本地发电厂。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BOOST_TRIGGER_CLASS_STRUGGLE" Language="zh_Hans_CN">
-			<Text>建造3座普通工厂或本地工厂。</Text>
+			<Text>建造3座{LOC_BUILDING_FACTORY_NAME}或本地工厂。</Text>
 		</Replace>
 
 	</LocalizedText>

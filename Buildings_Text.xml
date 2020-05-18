@@ -58,5 +58,19 @@
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LOCAL_POWER_PLANT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>An alternative to Factory. Local Factory does not have range effect, but has high production and low maintenance.</Text>
 		</Row>
+
+
+		<Replace Tag="LOC_BUILDING_FACTORY_NAME" Language="en_US">
+			<Text>Regional Factory</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_POWER_PLANT_NAME" Language="en_US">
+			<Text>Regional Power Plant</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FACTORY_NAME" Language="zh_Hans_CN">
+			<Text>区域工厂</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_POWER_PLANT_NAME" Language="zh_Hans_CN">
+			<Text>区域发电厂</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
