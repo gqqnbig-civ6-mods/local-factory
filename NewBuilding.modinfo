@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="4a915605-0e87-4752-bba9-63a7ba67a8b1" version="1">
+<Mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="../Civ6schema/xml/ModInfo.xsd"
+     id="4a915605-0e87-4752-bba9-63a7ba67a8b1" version="1.0.0.314.2">
   <Properties>
     <Name>Local Factory</Name>
     <Description>Add building Local Factory mutually exclusive to the vanilla Factory.[NEWLINE][NEWLINE]Local Factory doesn't have range effect but gives high production and low maintenance.</Description>
@@ -14,6 +16,7 @@
       <File>Buildings_Gameplay.xml</File>
       <File>Technologies_Gameplay.xml</File>
       <File>GreatPeople_Gameplay.xml</File>
+      <File>Policies_Gameplay.xml</File>
     </UpdateDatabase>
     <UpdateIcons id="Icons">
       <File>Buildings_Icons.xml</File>
@@ -22,17 +25,20 @@
       <File>Buildings_Text.xml</File>
       <File>Technologies_Text.xml</File>
       <File>GreatPeople_Text.xml</File>
+      <File>Policies_Text.xml</File>
     </UpdateText>
   </InGameActions>
   <Files>
     <File>Buildings_Gameplay.xml</File>
     <File>Technologies_Gameplay.xml</File>
     <File>GreatPeople_Gameplay.xml</File>
+    <File>Policies_Gameplay.xml</File>
 
     <File>Buildings_Icons.xml</File>
 
     <File>Buildings_Text.xml</File>
     <File>Technologies_Text.xml</File>
     <File>GreatPeople_Text.xml</File>
+    <File>Policies_Text.xml</File>
   </Files>
 </Mod>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:noNamespaceSchemaLocation="../Civ6schema/xml/Gameplay.xsd">
+	<Modifiers>
+		<Row ModifierId="THIRDALTERNATIVE_LOCAL_POWER_PLANT_GOLD_MODIFIER" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="THIRDALTERNATIVE_LOCAL_POWER_PLANT_GOLD_MODIFIER" Name="BuildingType" Value="BUILDING_LOCAL_POWER_PLANT"/>
+		<Row ModifierId="THIRDALTERNATIVE_LOCAL_POWER_PLANT_GOLD_MODIFIER" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="THIRDALTERNATIVE_LOCAL_POWER_PLANT_GOLD_MODIFIER" Name="Amount" Value="4" />
+	</ModifierArguments>
+	<PolicyModifiers>
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<ModifierId>THIRDALTERNATIVE_LOCAL_POWER_PLANT_GOLD_MODIFIER</ModifierId>
+		</Row>
+	</PolicyModifiers>
+</GameData>

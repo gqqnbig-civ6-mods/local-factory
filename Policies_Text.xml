@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:noNamespaceSchemaLocation="../Civ6schema/xml/Text.xsd">
+	<LocalizedText>
+		<Replace Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个研究实验室、军事学院、{LOC_BUILDING_POWER_PLANT_NAME}、{LOC_BUILDING_LOCAL_POWER_PLANT_NAME}+4 [ICON_Gold] 金币。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
