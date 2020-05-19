@@ -2,6 +2,10 @@
 <GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		  xsi:noNamespaceSchemaLocation="../Civ6schema/xml/Text.xsd">
 	<LocalizedText>
+		<Replace Tag="LOC_GREATPERSON_JAMES_WATT_ACTIVE" Language="en_US">
+			<Text>Instantly builds a {LOC_BUILDING_FACTORY_NAME} and {LOC_BUILDING_WATT_FACTORY_NAME} in this district.</Text>
+		</Replace>
+
 		<Replace Tag="LOC_GREATPERSON_JAMES_WATT_ACTIVE" Language="zh_Hans_CN">
 			<Text>立即在该区域建造{LOC_BUILDING_FACTORY_NAME}和{LOC_BUILDING_WATT_FACTORY_NAME}。</Text>
 		</Replace>

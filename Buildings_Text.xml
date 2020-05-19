@@ -7,26 +7,9 @@
 			<Text>Local Factory</Text>
 		</Row>
 
-		<!-- The description of the building, used in various places. -->
-		<Row Tag="LOC_BUILDING_LOCAL_FACTORY_DESCRIPTION" Language="en_US">
-			<Text>A game studio is a place that makes games, like the one you're playing this very moment!</Text>
-		</Row>
-
-		<!-- Pedia text (historical context) about the new building. -->
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LOCAL_FACTORY_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>An alternative to Factory. Local factory does not have range effect, but has high production and low maintenance.</Text>
-		</Row>
-
 		<Row Tag="LOC_BUILDING_LOCAL_POWER_PLANT_NAME" Language="en_US">
 			<Text>Local Power Plant</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_LOCAL_POWER_PLANT_DESCRIPTION" Language="en_US">
-			<Text>A game studio is a place that makes games, like the one you're playing this very moment!</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LOCAL_POWER_PLANT_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>An alternative to Power Plant. Local power plant does not have range effect, but has high production and low maintenance.</Text>
-		</Row>
-
 
 		<!-- 新的tag不需要使用replace标签 -->
 		<Row Tag="LOC_BUILDING_LOCAL_FACTORY_NAME" Language="zh_Hans_CN">
@@ -35,10 +18,6 @@
 
 		<Row Tag="LOC_BUILDING_LOCAL_FACTORY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>一座高产出的工厂，但不提供范围加成。适合精铺玩家。</Text>
-		</Row>
-
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LOCAL_FACTORY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>An alternative to Factory. Local Factory does not have range effect, but has high production and low maintenance.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_WATT_FACTORY_NAME" Language="zh_Hans_CN">
@@ -55,15 +34,20 @@
 		<Row Tag="LOC_BUILDING_LOCAL_POWER_PLANT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>一座高产出的发电厂，但不提供范围加成。适合精铺玩家。</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LOCAL_POWER_PLANT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>An alternative to Factory. Local Factory does not have range effect, but has high production and low maintenance.</Text>
-		</Row>
-
 
 		<Replace Tag="LOC_BUILDING_FACTORY_NAME" Language="en_US">
 			<Text>Regional Factory|Regional Factories</Text>
 			<Plurality>1|2</Plurality>
 		</Replace>
+
+		<Row Tag="LOC_BUILDING_WATT_FACTORY_NAME" Language="en_US">
+			<Text>Watt Steam Engine Company</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_WATT_FACTORY_DESCRIPTION" Language="en_US">
+			<Text>Watt Steam Engine Company is built by Great Engineer James Watt. Its effect is the same as Local Factory, but can be built together with {LOC_BUILDING_FACTORY_NAME}.</Text>
+		</Row>
+
 		<Replace Tag="LOC_BUILDING_POWER_PLANT_NAME" Language="en_US">
 			<Text>Regional Power Plant|Regional Power Plants</Text>
 			<Plurality>1|2</Plurality>

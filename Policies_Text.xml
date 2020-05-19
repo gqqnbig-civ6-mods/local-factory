@@ -2,6 +2,10 @@
 <GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		  xsi:noNamespaceSchemaLocation="../Civ6schema/xml/Text.xsd">
 	<LocalizedText>
+		<Replace Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Gold] Gold from each Research Lab, Military Academy, Local Power Plant, and {LOC_BUILDING_POWER_PLANT_NAME}.</Text>
+		</Replace>
+
 		<Replace Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>每个研究实验室、军事学院、{LOC_BUILDING_POWER_PLANT_NAME}、{LOC_BUILDING_LOCAL_POWER_PLANT_NAME}+4 [ICON_Gold] 金币。</Text>
 		</Replace>

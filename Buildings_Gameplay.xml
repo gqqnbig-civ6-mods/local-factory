@@ -8,7 +8,7 @@
 	</Types>
 	<!-- Define the building here. For examples of additional properties and values, look at Buildings.xml in /Base/Assets/Gameplay/Data/-->
 	<Buildings>
-		<Row BuildingType="BUILDING_LOCAL_FACTORY" Name="LOC_BUILDING_LOCAL_FACTORY_NAME" Description="LOC_BUILDING_LOCAL_FACTORY_DESCRIPTION"
+		<Row BuildingType="BUILDING_LOCAL_FACTORY" Name="LOC_BUILDING_LOCAL_FACTORY_NAME"
 			 PrereqTech="TECH_INDUSTRIALIZATION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE"
 			 PurchaseYield="YIELD_GOLD" Cost="390" AdvisorType="ADVISOR_GENERIC" Maintenance="1" CitizenSlots="1"/>
 
@@ -16,9 +16,7 @@
 			 PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE"
 			 Cost="2" Maintenance="1" CitizenSlots="1" MustPurchase="true" />
 
-
-
-		<Row BuildingType="BUILDING_LOCAL_POWER_PLANT" Name="LOC_BUILDING_LOCAL_POWER_PLANT_NAME" Description="LOC_BUILDING_LOCAL_POWER_PLANT_DESCRIPTION" 
+		<Row BuildingType="BUILDING_LOCAL_POWER_PLANT" Name="LOC_BUILDING_LOCAL_POWER_PLANT_NAME"
 			 PrereqTech="TECH_ELECTRICITY" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" 
 			 PurchaseYield="YIELD_GOLD" Cost="580" AdvisorType="ADVISOR_GENERIC" Maintenance="2" CitizenSlots="1"/>
 
