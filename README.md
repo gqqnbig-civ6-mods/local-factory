@@ -34,19 +34,19 @@ The project is on https://github.com/gqqnbig/civ6-local-factory
 
 添加建筑本地工厂。本地工厂与原版的有辐射功能的工厂互斥。本地工厂没有范围辐射，但产量高且维护成本低。也同样添加了本地发电厂。
 
-- 本地工厂: +6 ![icon](https://vignette.wikia.nocookie.net/civilization/images/7/74/Civ6Production.png/revision/latest) 产能, 1 ![icon](https://vignette.wikia.nocookie.net/civilization/images/b/bc/Civ6Gold.png/revision/latest)金维护费，没有范围效果。
-- 本地发电厂: +10 ![icon](https://vignette.wikia.nocookie.net/civilization/images/7/74/Civ6Production.png/revision/latest) 产能, 2 ![icon](https://vignette.wikia.nocookie.net/civilization/images/b/bc/Civ6Gold.png/revision/latest)金维护费，没有范围效果。
+- 本地工厂: +6 [img]https://vignette.wikia.nocookie.net/civilization/images/7/74/Civ6Production.png/revision/latest[/img] 产能, 1 [img]https://vignette.wikia.nocookie.net/civilization/images/b/bc/Civ6Gold.png/revision/latest[/img]金维护费，没有范围效果。
+- 本地发电厂: +10 [img]https://vignette.wikia.nocookie.net/civilization/images/7/74/Civ6Production.png/revision/latest[/img]产能, 2 [img]https://vignette.wikia.nocookie.net/civilization/images/b/bc/Civ6Gold.png/revision/latest[/img]金维护费，没有范围效果。
 
-对科技 ![icon](https://vignette.wikia.nocookie.net/civilization/images/b/b2/Advanced_Ballistics_%28Civ6%29.png/revision/latest/scale-to-height-down/24) 高级弹道学、奇观 ![icon](https://vignette.wikia.nocookie.net/civilization/images/5/51/Ruhr_Valley_%28Civ6%29.png/revision/latest/scale-to-height-down/24) 鲁尔河谷的依赖关系、大工程师詹姆斯瓦特的技能都作了相应修订。
+对科技 [img]https://vignette.wikia.nocookie.net/civilization/images/b/b2/Advanced_Ballistics_%28Civ6%29.png/revision/latest/scale-to-height-down/24[/img]高级弹道学和奇观[img]https://vignette.wikia.nocookie.net/civilization/images/5/51/Ruhr_Valley_%28Civ6%29.png/revision/latest/scale-to-height-down/24[/img]鲁尔河谷的依赖关系、大工程师詹姆斯瓦特的技能都作了相应修订。
 
-日本的独特建筑电子厂未作修改。
+日本的独特建筑电子厂未作修订。
 
-兼容原版，资料片迭起兴衰和风云际会未做测试。
+兼容原版，资料片《迭起兴衰》和《风云际会》未做测试。
 
-# 影响存档
+[h1]影响存档[/h1]
+
 AffectsSavedGames已设置为1。如果你游玩存档，则游戏不会加载此模组。
 
-如果你真的想半途载入此模组，则可以打开modinfo文件，手动把&lt;AffectsSavedGames>字段设置为0。这样游戏就会加载本模组了。注意，手动把&lt;AffectsSavedGames>字段设置为0并加载入存档之后（即使你重新存档），你还是不能把&lt;AffectsSavedGames>改回1。
+如果你真的想半途载入此模组，则可以打开modinfo文件，手动把<AffectsSavedGames>字段设置为0。这样游戏就会加载本模组了。注意，手动把<AffectsSavedGames>字段设置为0并加载入存档之后（即使你重新存档），你还是不能把<AffectsSavedGames>改回1。
 
-
-该项目位于 https://github.com/gqqnbig/civ6-local-factory
+该项目位于 https://github.com/gqqnbig/civ6-local-factory ， 欢迎参与。
