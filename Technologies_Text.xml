@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<GameData>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../Civ6schema/xml/Text.xsd">
 	<LocalizedText>
 		<Replace Tag="LOC_BOOST_TRIGGER_ADVANCED_BALLISTICS" Language="en_US">
-			<Text>Build 2 {LOC_BUILDING_POWER_PLANT_NAME} or local power plants.</Text>
+			<Text>Build 2 {LOC_BUILDING_POWER_PLANT_NAME*2} or Local Power Plants.</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BOOST_TRIGGER_CLASS_STRUGGLE" Language="en_US">
-			<Text>Build 3 {LOC_BUILDING_FACTORY_NAME} or Local Factories.</Text>
+			<Text>Build 3 {LOC_BUILDING_FACTORY_NAME*2} or Local Factories.</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BOOST_TRIGGER_ADVANCED_BALLISTICS" Language="zh_Hans_CN">

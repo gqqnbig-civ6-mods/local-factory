@@ -61,10 +61,12 @@
 
 
 		<Replace Tag="LOC_BUILDING_FACTORY_NAME" Language="en_US">
-			<Text>Regional Factory</Text>
+			<Text>Regional Factory|Regional Factories</Text>
+			<Plurality>1|2</Plurality>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_POWER_PLANT_NAME" Language="en_US">
-			<Text>Regional Power Plant</Text>
+			<Text>Regional Power Plant|Regional Power Plants</Text>
+			<Plurality>1|2</Plurality>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FACTORY_NAME" Language="zh_Hans_CN">
 			<Text>区域工厂</Text>
