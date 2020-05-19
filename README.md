@@ -12,7 +12,7 @@ Add building Local Factory mutually exclusive to the vanilla Factory. Local Fact
 
 Local Factory: +6 +6 [img]https://vignette.wikia.nocookie.net/civilization/images/7/74/Civ6Production.png/revision/latest[/img] Production, 1 [img]https://vignette.wikia.nocookie.net/civilization/images/b/bc/Civ6Gold.png/revision/latest[/img] gold maintenance fee, no range effect.
 Local Power Plant: +10 [img]https://vignette.wikia.nocookie.net/civilization/images/7/74/Civ6Production.png/revision/latest[/img] Production, 2 [img]https://vignette.wikia.nocookie.net/civilization/images/b/bc/Civ6Gold.png/revision/latest[/img] gold maintenance fee, no range effect.
-The dependencies on [img]https://vignette.wikia.nocookie.net/civilization/images/b/b2/Advanced_Ballistics_%28Civ6%29.png/revision/latest/scale-to-height-down/24[/img] ADVANCED BALLISTICS and [img]https://vignette.wikia.nocookie.net/civilization/images/5/51/Ruhr_Valley_%28Civ6%29.png/revision/latest/scale-to-height-down/24[/img] RUHR VALLEY, and the effect of Great Engineer James Watt are also revised accordingly.
+The dependencies on [img]https://vignette.wikia.nocookie.net/civilization/images/b/b2/Advanced_Ballistics_%28Civ6%29.png/revision/latest/scale-to-height-down/24[/img] ADVANCED BALLISTICS and [img]https://vignette.wikia.nocookie.net/civilization/images/5/51/Ruhr_Valley_%28Civ6%29.png/revision/latest/scale-to-height-down/24[/img] RUHR VALLEY, policy card Third Alternative, the effect of Great Engineer James Watt, and so on are revised accordingly.
 
 Japan is not revised.
 
@@ -36,7 +36,7 @@ The project is on https://github.com/gqqnbig/civ6-local-factory. Participations 
 - 本地工厂: +6 [img]https://vignette.wikia.nocookie.net/civilization/images/7/74/Civ6Production.png/revision/latest[/img] 产能, 1 [img]https://vignette.wikia.nocookie.net/civilization/images/b/bc/Civ6Gold.png/revision/latest[/img]金维护费，没有范围效果。
 - 本地发电厂: +10 [img]https://vignette.wikia.nocookie.net/civilization/images/7/74/Civ6Production.png/revision/latest[/img]产能, 2 [img]https://vignette.wikia.nocookie.net/civilization/images/b/bc/Civ6Gold.png/revision/latest[/img]金维护费，没有范围效果。
 
-对科技 [img]https://vignette.wikia.nocookie.net/civilization/images/b/b2/Advanced_Ballistics_%28Civ6%29.png/revision/latest/scale-to-height-down/24[/img]高级弹道学和奇观[img]https://vignette.wikia.nocookie.net/civilization/images/5/51/Ruhr_Valley_%28Civ6%29.png/revision/latest/scale-to-height-down/24[/img]鲁尔河谷的依赖关系、大工程师詹姆斯瓦特的技能都作了相应修订。
+对科技 [img]https://vignette.wikia.nocookie.net/civilization/images/b/b2/Advanced_Ballistics_%28Civ6%29.png/revision/latest/scale-to-height-down/24[/img]高级弹道学和奇观[img]https://vignette.wikia.nocookie.net/civilization/images/5/51/Ruhr_Valley_%28Civ6%29.png/revision/latest/scale-to-height-down/24[/img]鲁尔河谷的依赖关系、大工程师詹姆斯瓦特的技能、政策卡第三选择等都作了相应修订。
 
 日本的独特建筑电子厂未作修订。
 
