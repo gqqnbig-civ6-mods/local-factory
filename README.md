@@ -24,6 +24,12 @@ AffectsSavedGames is set to 1. The game will not load this mod if you are loadin
 
 However, if you want to use this mod mid-game, you can change <AffectsSavedGames> field to 0 in the modinfo file. Note, you CANNOT change AffectsSavedGames back to 1 if you are still playing the savegame which you have played with this mod with AffectsSavedGames=0.
 
+[h1]Versions[/h1]
+The version of the mod matches the base game. If the version of the mod is 341XX, it's compatible with base game 1.0.0.341. XX is the real revision of the mod.
+
+Due to restrictions from Firaxis, mod version cannot use dots (.), which people are more used to.
+
+
 The project is on https://github.com/gqqnbig/civ6-local-factory. Participations are appriciated.
 
 
@@ -47,5 +53,10 @@ The project is on https://github.com/gqqnbig/civ6-local-factory. Participations 
 AffectsSavedGames已设置为1。如果你游玩存档，则游戏不会加载此模组。
 
 如果你真的想半途载入此模组，则可以打开modinfo文件，手动把<AffectsSavedGames>字段设置为0。这样游戏就会加载本模组了。注意，手动把<AffectsSavedGames>字段设置为0并加载入存档之后（即使你重新存档），你还是不能把<AffectsSavedGames>改回1。
+
+[h1]版本号[/h1]
+本模组的版本号与游戏本体匹配。如果本模组的版本号是341XX，它表示本模组兼容游戏版本1.0.0.341。XX则是本模组真正的修订版本。
+
+由于Firaxis的限制，版本号无法使用人们习惯的点（.）来分隔。
 
 该项目位于 https://github.com/gqqnbig/civ6-local-factory ， 欢迎参与。
