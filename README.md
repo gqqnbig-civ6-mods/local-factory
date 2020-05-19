@@ -10,22 +10,21 @@ Let's play tall city!
 
 Add building Local Factory mutually exclusive to the vanilla Factory. Local Factory doesn't have range effect but gives high production and low maintenance. Do the same for Power Plants.
 
-- Local Factory: +6 ![icon](https://vignette.wikia.nocookie.net/civilization/images/7/74/Civ6Production.png/revision/latest) Production, 1 ![icon](https://vignette.wikia.nocookie.net/civilization/images/b/bc/Civ6Gold.png/revision/latest) gold maintenance fee, no range effect.
-- Local Power Plant: +10 ![icon](https://vignette.wikia.nocookie.net/civilization/images/7/74/Civ6Production.png/revision/latest) Production, 2 ![icon](https://vignette.wikia.nocookie.net/civilization/images/b/bc/Civ6Gold.png/revision/latest) gold maintenance fee, no range effect.
-
-The dependencies on ![icon](https://vignette.wikia.nocookie.net/civilization/images/b/b2/Advanced_Ballistics_%28Civ6%29.png/revision/latest/scale-to-height-down/24) ADVANCED BALLISTICS and  ![icon](https://vignette.wikia.nocookie.net/civilization/images/5/51/Ruhr_Valley_%28Civ6%29.png/revision/latest/scale-to-height-down/24) RUHR VALLEY, and the effect of Great Engineer James Watt are also revised accordingly.
+Local Factory: +6 +6 [img]https://vignette.wikia.nocookie.net/civilization/images/7/74/Civ6Production.png/revision/latest[/img] Production, 1 [img]https://vignette.wikia.nocookie.net/civilization/images/b/bc/Civ6Gold.png/revision/latest[/img] gold maintenance fee, no range effect.
+Local Power Plant: +10 [img]https://vignette.wikia.nocookie.net/civilization/images/7/74/Civ6Production.png/revision/latest[/img] Production, 2 [img]https://vignette.wikia.nocookie.net/civilization/images/b/bc/Civ6Gold.png/revision/latest[/img] gold maintenance fee, no range effect.
+The dependencies on [img]https://vignette.wikia.nocookie.net/civilization/images/b/b2/Advanced_Ballistics_%28Civ6%29.png/revision/latest/scale-to-height-down/24[/img] ADVANCED BALLISTICS and [img]https://vignette.wikia.nocookie.net/civilization/images/5/51/Ruhr_Valley_%28Civ6%29.png/revision/latest/scale-to-height-down/24[/img] RUHR VALLEY, and the effect of Great Engineer James Watt are also revised accordingly.
 
 Japan is not revised.
 
 Compatible to vanilla. Rise and Fall, Gathering Storm are untested.
 
+[h1]Affects Saved Games[/h1]
 
-## Affects Saved Games
 AffectsSavedGames is set to 1. The game will not load this mod if you are loading a savegame.
 
-However, if you want to use this mod mid-game, you can change &lt;AffectsSavedGames> field to 0 in the `modinfo` file. Note, you CANNOT change AffectsSavedGames back to 1 if you are still playing the savegame which you have played with this mod with AffectsSavedGames=0.
+However, if you want to use this mod mid-game, you can change <AffectsSavedGames> field to 0 in the modinfo file. Note, you CANNOT change AffectsSavedGames back to 1 if you are still playing the savegame which you have played with this mod with AffectsSavedGames=0.
 
-The project is on https://github.com/gqqnbig/civ6-local-factory
+The project is on https://github.com/gqqnbig/civ6-local-factory. Participations are appriciated.
 
 
 ## 本地工厂与发电厂
