@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:noNamespaceSchemaLocation="../Civ6schema/xml/ModInfo.xsd"
-     id="4a915605-0e87-4752-bba9-63a7ba67a8b1" version="1.0.0.314.2">
+     id="4a915605-0e87-4752-bba9-63a7ba67a8b1" version="34101">
   <Properties>
     <Name>Local Factory</Name>
     <Description>Add building Local Factory mutually exclusive to the vanilla Factory.[NEWLINE][NEWLINE]Local Factory doesn't have range effect but gives high production and low maintenance.</Description>
